@@ -90,15 +90,7 @@ header .content form{
         padding: 10px;
         border-left: 2px solid black;
         font-size: 30px;
-      
-        
-        
-
     }
-   
-
-
-
  header .content form button img{
      
     width: 30px;
@@ -106,5 +98,43 @@ header .content form{
     top:10px;
  }
 
+  #enjoy{
+background-color: black;
+display: flex;
+align-items: center;
+color: white;
+padding: 50px 5%;
+border-top: 10px solid #1f1e1e;
+
+ }
+
+ #enjoy figure{
+     position: relative;
+ }
+
+ #enjoy figure video{
+     position: absolute;
+     left:50%;
+     top:50%;
+     transform:translate(-50%, -53%);
+    
+ }
+
+ #enjoy figure img{
+     Position:relative;
+     z-index: 2;
+ }
+
+ #enjoy .details h1{
+font-size: 3.124rem;
 
 
+ }
+
+
+ #enjoy .details p{
+    font-size: 1.625rem;
+    padding:10px 0px;
+    
+     }
+    
